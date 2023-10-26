@@ -17,7 +17,7 @@ Sigue los siguientes pasos para instalar y configurar correctamente Calculator_a
 
 ```ruby
 
-> flutter pub add flutter_launcher_icons
+flutter pub add flutter_launcher_icons
 
 ```
 
@@ -26,7 +26,7 @@ Sigue los siguientes pasos para instalar y configurar correctamente Calculator_a
 
 ```ruby
 
-> flutter pub add math_expressions
+flutter pub add math_expressions
 
 ```
 
