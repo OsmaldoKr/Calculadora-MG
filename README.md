@@ -11,9 +11,9 @@ Sigue los siguientes pasos para instalar y configurar correctamente Calculator_a
 1. Asegúrate de tener Flutter instalado en tu sistema. Si no lo tienes, sigue las instrucciones de instalación en [este enlace](https://flutter.dev/docs/get-started/install).
 
 
-3.Instala el paquete `flutter_launcher_icons` siguiendo las instrucciones detalladas en [este enlace](https://pub.dev/packages/flutter_launcher_icons).
+2.Instala el paquete `flutter_launcher_icons` siguiendo las instrucciones detalladas en [este enlace](https://pub.dev/packages/flutter_launcher_icons).
 
-2. Luego de la instalación del paquete `flutter_launcher_icons` ejecutando el siguiente comando en tu terminal:
+3. Luego de la instalación del paquete `flutter_launcher_icons` ejecutando el siguiente comando en tu terminal:
 
 ```ruby
 
