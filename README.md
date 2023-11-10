@@ -1,4 +1,4 @@
-# Calculator_app
+# MG CALCULADORA
 
 ![Logo de Calculator_app](assets/icon/icon.png)
 
