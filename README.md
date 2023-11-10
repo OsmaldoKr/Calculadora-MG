@@ -3,7 +3,7 @@
 ![Logo de Calculator_app](assets/icon/icon.png)
 
 ## Descripción
-Calculator_app es una aplicación de calculadora diseñada para ayudar a los estudiantes con ecuaciones simples. Con esta app, los estudiantes podrán resolver rápidamente ecuaciones matemáticas básicas y obtener resultados precisos.
+MG CALCULADORA es una aplicación de calculadora diseñada para facilitar a los estudiantes la realización de operaciones matemáticas básicas. Con una interfaz intuitiva y fácil de usar, los usuarios pueden realizar rápidamente sumas, restas, multiplicaciones y divisiones, obteniendo resultados precisos al instante.
 
 ## Instalación
 Sigue los siguientes pasos para instalar y configurar correctamente Calculator_app:
