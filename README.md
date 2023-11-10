@@ -3,10 +3,10 @@
 ![Logo de Calculator_app](assets/icon/icon.png)
 
 ## Descripción
-MG CALCULADORA es una aplicación de calculadora diseñada para facilitar a los estudiantes la realización de operaciones matemáticas básicas. Con una interfaz intuitiva y fácil de usar, los usuarios pueden realizar rápidamente sumas, restas, multiplicaciones y divisiones, obteniendo resultados precisos al instante.
+CALCULADORA MG es una aplicación de calculadora diseñada para facilitar a los estudiantes la realización de operaciones matemáticas básicas. Con una interfaz intuitiva y fácil de usar, los usuarios pueden realizar rápidamente sumas, restas, multiplicaciones y divisiones, obteniendo resultados precisos al instante.
 
 ## Instalación
-Sigue los siguientes pasos para instalar y configurar correctamente Calculator_app:
+Sigue los siguientes pasos para instalar y configurar correctamente CALCULADORA MG:
 
 1. Asegúrate de tener Flutter instalado en tu sistema. Si no lo tienes, sigue las instrucciones de instalación en [este enlace](https://flutter.dev/docs/get-started/install).
 
@@ -31,7 +31,7 @@ flutter pub add math_expressions
 ```
 
 
-¡Listo! Ahora deberías poder ejecutar y utilizar Calculator_app en tu dispositivo o emulador.
+¡Listo! Ahora deberías poder ejecutar y utilizar CALCULADORA MG en tu dispositivo o emulador.
 
 Si tienes alguna pregunta o problema durante la instalación, no dudes en crear un issue en este repositorio.
 
