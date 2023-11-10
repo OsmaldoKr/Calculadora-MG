@@ -150,12 +150,10 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    calButtons(
-                        'AC', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('AC', Colors.white, 80, Colors.deepOrangeAccent[100]!),
                     calButtons('⌫', Colors.white, 80, Colors.white38),
                     calButtons('%', Colors.white, 80, Colors.white38),
-                    calButtons(
-                        '÷', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('÷', Colors.white, 80, Colors.deepOrangeAccent[100]!),
                   ],
                 ),
                 const SizedBox(
@@ -167,8 +165,7 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
                     calButtons('7', Colors.white, 80, Colors.white10),
                     calButtons('8', Colors.white, 80, Colors.white10),
                     calButtons('9', Colors.white, 80, Colors.white10),
-                    calButtons(
-                        'x', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('x', Colors.white, 80, Colors.deepOrangeAccent[100]!),
                   ],
                 ),
                 const SizedBox(
@@ -193,8 +190,7 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
                     calButtons('1', Colors.white, 80, Colors.white10),
                     calButtons('2', Colors.white, 80, Colors.white10),
                     calButtons('3', Colors.white, 80, Colors.white10),
-                    calButtons(
-                        '+', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('+', Colors.white, 80, Colors.deepOrangeAccent[100]!),
                   ],
                 ),
                 const SizedBox(
@@ -203,10 +199,10 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    calButtons('0', Colors.white, 170, Colors.white10),
+                    calButtons('0', Colors.white, 80, Colors.white10),
+                    calButtons('.', Colors.white, 80, Colors.white10),
                     calButtons('9', Colors.white, 80, Colors.white10),
-                    calButtons(
-                        '=', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('=', Colors.white, 80, Colors.deepOrangeAccent[100]!),
                   ],
                 ),
                 const SizedBox(
