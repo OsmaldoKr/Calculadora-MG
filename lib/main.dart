@@ -104,7 +104,7 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
       body: Column(
         children: [
           const SizedBox(
-            height: 20,
+            height: 10,
           ),
           // display equation value
           Container(
@@ -124,8 +124,8 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
           ),
 
           const SizedBox(
-            height: 20,
-          ),
+            height: 10,
+          ), 
           // display result
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -150,10 +150,62 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    calButtons('AC', Colors.white, 80, Colors.deepOrangeAccent[100]!),
-                    calButtons('⌫', Colors.white, 80, Colors.white38),
-                    calButtons('%', Colors.white, 80, Colors.white38),
-                    calButtons('÷', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('AC', Colors.white, 50, Colors.deepOrangeAccent[100]!),
+                    calButtons('÷', Colors.white, 50, Colors.white38),
+                    calButtons('^', Colors.white, 50, Colors.white38),
+                    calButtons('⌫', Colors.white, 50,  Colors.deepOrangeAccent[100]!),
+                    
+                  ],
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    
+                    calButtons('(', Colors.white, 50, Colors.white38),
+                    calButtons(')', Colors.white, 50, Colors.white38),
+                    calButtons('sin', Colors.white, 50, Colors.white38),
+                    calButtons('cos', Colors.white, 50, Colors.white38),
+                    calButtons('tan', Colors.white, 50, Colors.deepOrangeAccent[100]!),
+                  
+                  ],
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    calButtons('7', Colors.white, 50, Colors.white10),
+                    calButtons('8', Colors.white, 50, Colors.white10),
+                    calButtons('9', Colors.white, 50, Colors.white10),
+                    calButtons('x', Colors.white, 50, Colors.deepOrangeAccent[100]!),
+                  ],
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    calButtons('4', Colors.white, 50, Colors.white10),
+                    calButtons('5', Colors.white, 50, Colors.white10),
+                    calButtons('6', Colors.white, 50, Colors.white10),
+                    calButtons('-', Colors.white, 50, Colors.deepOrangeAccent[100]!),
+                  ],
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    calButtons('1', Colors.white, 50, Colors.white10),
+                    calButtons('2', Colors.white, 50, Colors.white10),
+                    calButtons('3', Colors.white, 50, Colors.white10),
+                    calButtons('+', Colors.white, 50, Colors.deepOrangeAccent[100]!),
                   ],
                 ),
                 const SizedBox(
@@ -162,47 +214,9 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    calButtons('7', Colors.white, 80, Colors.white10),
-                    calButtons('8', Colors.white, 80, Colors.white10),
-                    calButtons('9', Colors.white, 80, Colors.white10),
-                    calButtons('x', Colors.white, 80, Colors.deepOrangeAccent[100]!),
-                  ],
-                ),
-                const SizedBox(
-                  height: 25,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    calButtons('4', Colors.white, 80, Colors.white10),
-                    calButtons('5', Colors.white, 80, Colors.white10),
-                    calButtons('6', Colors.white, 80, Colors.white10),
-                    calButtons(
-                        '-', Colors.white, 80, Colors.deepOrangeAccent[100]!),
-                  ],
-                ),
-                const SizedBox(
-                  height: 25,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    calButtons('1', Colors.white, 80, Colors.white10),
-                    calButtons('2', Colors.white, 80, Colors.white10),
-                    calButtons('3', Colors.white, 80, Colors.white10),
-                    calButtons('+', Colors.white, 80, Colors.deepOrangeAccent[100]!),
-                  ],
-                ),
-                const SizedBox(
-                  height: 25,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    calButtons('0', Colors.white, 80, Colors.white10),
-                    calButtons('.', Colors.white, 80, Colors.white10),
-                    calButtons('9', Colors.white, 80, Colors.white10),
-                    calButtons('=', Colors.white, 80, Colors.deepOrangeAccent[100]!),
+                    calButtons('0', Colors.white, 150, Colors.white10),
+                    calButtons('.', Colors.white, 50, Colors.white10),
+                    calButtons('=', Colors.white, 50, Colors.deepOrangeAccent[100]!),
                   ],
                 ),
                 const SizedBox(
@@ -216,3 +230,4 @@ class _CalculatorAppHomeState extends State<CalculatorAppHome> {
     );
   }
 }
+
